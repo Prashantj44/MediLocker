@@ -1,0 +1,50 @@
+name: medilocker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  firebase_storage: ^12.1.0
+  file_picker: ^8.0.6
+  url_launcher: ^6.3.0
+  path_provider: ^2.0.11
+  path: ^1.8.2
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.1
+  permission_handler: ^11.3.1
+  open_file: ^3.3.2
+  encrypt: ^5.0.3
+  flutter_secure_storage: ^9.0.0
+  collection: ^1.18.0
+  google_generative_ai: ^0.4.0
+
+
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app_icon.jpg
